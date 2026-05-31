@@ -1,4 +1,4 @@
-# thesis-aigc-skills
+# chhsich-thesis-aigc-skills
 
 降低中文学术论文 AIGC 检测率（知网/维普/万方）的实战方法论和工具。
 
