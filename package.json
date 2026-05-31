@@ -2,15 +2,11 @@
   "name": "@chhsiching/chhsich-thesis-aigc-skills",
   "version": "1.0.1",
   "description": "降低中文学术论文 AIGC 检测率的 Claude Code skill — 预防性写作规则 + 事后修复工作流",
-  "bin": {
-    "chhsich-thesis-aigc-skills": "./bin/install.js"
-  },
   "files": [
     "SKILL.md",
     "REFERENCE.md",
     "EXAMPLES.md",
-    "scripts/",
-    "bin/"
+    "scripts/"
   ],
   "keywords": [
     "claude-code",

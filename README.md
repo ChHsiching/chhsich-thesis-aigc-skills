@@ -11,13 +11,13 @@
 
 ## 安装
 
-### 方式一：npx（推荐）
+### 方式一：npx skills add（推荐）
 
 ```bash
-npx @chhsiching/chhsich-thesis-aigc-skills
+npx skills add ChHsiching/chhsich-thesis-aigc-skills
 ```
 
-自动安装到 Claude Code / AionUI 的 skills 目录，重启会话即可使用。
+使用 [skills](https://github.com/vercel-labs/skills) CLI 自动安装到 Claude Code 等支持的 agent。详见 `npx skills add --help`。
 
 ### 方式二：从 GitHub 手动安装
 
