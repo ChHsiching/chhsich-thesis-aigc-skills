@@ -19,7 +19,14 @@ npx skills add ChHsiching/chhsich-thesis-aigc-skills
 
 使用 [skills](https://github.com/vercel-labs/skills) CLI 自动安装到 Claude Code 等支持的 agent。详见 `npx skills add --help`。
 
-### 方式二：从 GitHub 手动安装
+### 方式二：从 GitHub Packages 安装
+
+```bash
+npm config set @chhsiching:registry https://npm.pkg.github.com
+npm install @chhsiching/chhsich-thesis-aigc-skills
+```
+
+### 方式三：从 GitHub 手动安装
 
 ```bash
 # 克隆到 skills 目录
