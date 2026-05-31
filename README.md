@@ -24,7 +24,7 @@ npx @chhsiching/thesis-aigc-skills
 ```bash
 # 克隆到 skills 目录
 git clone https://github.com/ChHsiching/chhsich-thesis-aigc-skills.git \
-  ~/.claude/skills/thesis-aigc-reduction
+  ~/.claude/skills/chhsich-thesis-aigc-skills
 ```
 
 或者直接将 `SKILL.md` 复制到你的 skills 目录。
