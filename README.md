@@ -14,7 +14,7 @@
 ### 方式一：npx（推荐）
 
 ```bash
-npx @chhsiching/thesis-aigc-skills
+npx @chhsiching/chhsich-thesis-aigc-skills
 ```
 
 自动安装到 Claude Code / AionUI 的 skills 目录，重启会话即可使用。
