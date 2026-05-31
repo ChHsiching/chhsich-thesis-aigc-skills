@@ -9,6 +9,26 @@
 
 基于实战验证：知网 AIGC 检测率从 **48.9% 降至 11.3%**。
 
+## 安装
+
+### 方式一：npx（推荐）
+
+```bash
+npx @chhsiching/thesis-aigc-skills
+```
+
+自动安装到 Claude Code / AionUI 的 skills 目录，重启会话即可使用。
+
+### 方式二：从 GitHub 手动安装
+
+```bash
+# 克隆到 skills 目录
+git clone https://github.com/ChHsiching/chhsich-thesis-aigc-skills.git \
+  ~/.claude/skills/thesis-aigc-reduction
+```
+
+或者直接将 `SKILL.md` 复制到你的 skills 目录。
+
 ## 双模式工作流
 
 ### 模式一：预防性写作
