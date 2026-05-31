@@ -20,12 +20,22 @@
     "academic",
     "cnki",
     "chinese",
-    "降重",
     "论文"
   ],
   "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ChHsiching/chhsich-thesis-aigc-skills.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ChHsiching/chhsich-thesis-aigc-skills/issues"
+  },
+  "homepage": "https://github.com/ChHsiching/chhsich-thesis-aigc-skills#readme",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   }
 }
