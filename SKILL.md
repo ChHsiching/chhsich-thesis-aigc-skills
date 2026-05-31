@@ -1,5 +1,5 @@
 ---
-name: thesis-aigc-reduction
+name: chhsich-thesis-aigc-skills
 description: |
   降低中文学术论文的 AIGC 检测率（知网/维普/万方）。双模式工作流：
   (1) 事后修复：解析检测报告定位"显著"片段，完全重写（非逐词替换），通过 lxml 操作 docx XML 仅修改文本节点以保护格式。

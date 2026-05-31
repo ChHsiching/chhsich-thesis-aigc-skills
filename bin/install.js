@@ -6,7 +6,7 @@ import { fileURLToPath } from 'node:url';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
-const SKILL_NAME = 'thesis-aigc-reduction';
+const SKILL_NAME = 'chhsich-thesis-aigc-skills';
 
 // Claude Code skills directories (try in order)
 const SKILL_DIRS = [
