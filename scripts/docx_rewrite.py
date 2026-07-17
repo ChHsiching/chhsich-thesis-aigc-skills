@@ -58,7 +58,11 @@ def replace_in_paragraph(p, old_text, new_text):
 
     runs[sr].text = (runs[sr].text or '')[:sc] + new_text
     for i in range(sr + 1, er):
-        runs[i].text = ''
+        # Remove the emptied <w:t> rather than leaving <w:t></w:t>, which
+        # reparses as .text == None and breaks naive text concatenation.
+        parent = runs[i].getparent()
+        if parent is not None:
+            parent.remove(runs[i])
     runs[er].text = (runs[er].text or '')[ec + 1:]
     return True
 
